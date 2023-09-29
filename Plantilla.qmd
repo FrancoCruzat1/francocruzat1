@@ -1,6 +1,6 @@
 ---
 title: "Plantilla Proyecto"
-author: "Alumno"
+author: "Franco Cruzat"
 format: html
 editor: visual
 ---
