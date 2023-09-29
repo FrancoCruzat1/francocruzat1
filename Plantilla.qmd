@@ -21,9 +21,13 @@ Fecha de entrega: Jueves 28 de Septiembre 23:59.
 
 ### Definición
 
-hola hola
+El activo a estudiar son las acciones de la empresa COPEC.SA
 
-Definir y describir activo a estudiar, acompañar con datos (tributa a indicador de Contexto) y con referencias científicas realizando una investigacion relacionada a articulos ubicados en la base de datos de Web of Science, con una calificacion Q1-Q2 y referenciada varias veces (Esto se verá en el tutorial de la semana 5).
+Copec SA  es una empresa Chilena fundada en el año 1934 , comenzó con la finalidad comercializar y distribuir combustibles en el País. Actualmente es una de las principales empresas de energía de Latinoamérica, tiene presencias en industrias como el petróleo, producción y distribución de combustible, forestales pesca y en empresas de generación de energía a partir de fuentes renovables. En esta investigación se analizarán las acciones de COPEC, estas cotizan en la Bolsa de Comercio de Santiago de Chile y en otras bolsas internacionales.
+
+El paper Energía renovable, producción, emisiones de CO2 y precios de los combustibles fósiles en Centroamérica: evidencia de un modelo de corrección de errores de vector de transición suave de panel no lineal. Estudia los determinantes del consumo de energía renovable per cápita para un panel de siete países centroamericanos, encontraron que existe una relación de largo plazo entre el consumo de energía renovable per cápita, el PIB real per cápita, emisiones de carbono per cápita, precios reales del carbón y precios reales del petróleo. Además, explica que la dependencia de las fuentes de energía de combustibles fósiles y las consecuencias ambientales de su uso han llamado la atención tanto de los responsables políticos como del público en general en cuanto a la necesidad de desarrollar una combinación de consumo de energía más sostenible. Este es el caso de Centroamérica, una región con abundante capacidad hidroeléctrica y geotérmica, pero con un historial de dependencia de combustibles fósiles importados para su uso energético.
+
+Fuente: https://www.webofscience.com/wos/woscc/full-record/WOS:000333778400024
 
 ```{r ETL}
 #| echo: false
@@ -62,11 +66,21 @@ COPEC.SN %>%
 
 ### Motivación
 
-Establecer la relevancia o potencial interés específico del activo que justifique el porque realizar la investigacion a este activo y no a otros. Argumentar haciendo referencia a datos o noticias actuales que motiven el estudio de este activo.
+El realizar un estudio de la empresa Copec SA es enriquecedor debido a su destacada posición en el mercado y su influencia en la industria energética particularmente en los combustibles, siendo esta una empresa líder en la industria durante décadas, lo que lo convierte en una empresa consolidada. Además, es una empresa que se ha enfocado en mejorar y fortalecer técnicas de sustentabilidad con enfoque medioambiental y políticas atingentes y de interés actual. Está posee presencia en toda Latinoamérica y parte de Europa. Ha demostrado una capacidad constante de diversificarse e innovar en su cartera de negocios. Este estudio puede proporcionar información no solo para mi búsqueda de Practica profesional dado mi interés en el área de logistica, si no también para tener en cuenta este tipo de empresas para buscar empleo en un futuro.
+
+Copec durante el año 2023 invirtió 10 millones de dólares en un startup Estado Unidense que creo una tecnología para extrar agua del aire, con el fin de explorar la expansión del agua potable en Chile. Como parte de esta alianza ambas compañías realizaran un proyecto piloto en la región Metropolitana durante el segundo trimestre de 2023 con planes de escalar la tecnologías en Chile.
+
+Fuente: <https://www.df.cl/df-lab/innovacion-y-startups/copec-invierte-u-10-millones-en-startup-estadounidense-que-creo>
 
 ### Contexto
 
-Ingesta datos del activo y provee un análisis de estadística descriptiva simple junto con el análisis de una variable económica de contexto. Ejemplo: Si el activo es una minera, la variable puede ser el precio del metal. Acompañar este analisis con graficos, riesgos, horizonte de inversion, rentabilidad del activo, entre otros.
+Para este informe se escogió como activo principal las acciones de copec SA, estas acciones cotizan en la Bolsa de comercio de Santiago, también pueden estar disponibles para inversores extranjeros, como activo adicional se escogió la empre Abastible, Sociedad anónima fundada en 1956, esta empresa se dedica a la distribución y comercialización de gas licuado y petróleo, ofrece una variedad de servicios adicionales como suministro de gas, distribución personalizada a hogares y empresas, además Abastible ofrece soluciones energéticas integrales para optimizar el uso del gas en empresas e industrias, incluyendo sistemas de calderas y otros equipos. A lo largo de los años Abastible se ha expandido a países como Perú, Colombia, Ecuador y México. La relación con Copec SA es que Abastible es una filial de empresas copec, la finalidad de Copec es comercializar y distribuir el combustible al País, y Abastible tiene como objetivo de comercializar y distribuir gas licuado.
+
+ La variable adicional escogida fue el precio del petróleo, la relación del precio del petróleo y Copec SA es importante, ya que copec es una de las compañías más grandes y diversificadas de Chile en el sector energético y de combustibles, además Copec está involucrada en la refinación y comercialización de productos derivados del petróleo, como la gasolina, el diésel y otros combustibles. Por lo tanto, el precio del petróleo crudo es un factor clave en sus costos de producción. También Los precios de los productos derivados del petróleo, como la gasolina y el diésel, tienden a seguir la tendencia de los precios internacionales del petróleo crudo.
+
+Fuente: Bolsa de comercio de Santiago
+
+Precio acciones copec SA año 2023.
 
 ```{r context}
 #| warning: false
@@ -117,24 +131,32 @@ Ejemplos:
 
 #### Caracterización deuda (Aplicación cap. 15)
 
-Describir el activo especificando en que realiza sus inversiones (por tipo de instrumento). Especificar sus acciones comunes, preferentes y bonos relacionados aplicando lo aprendido en el capitulo respectivo.
-
-Ejemplo de un fondo mutuo como activo a analizar:
+Las acciones de copec SA son acciones ordinarias, COPEC sa al marzo del año 2023 posee 8.830.496 miles de millones de dólares en activos corrientes totales, y 20.073.737 en activo no corrientes, dando un total de activos de 28.904.223 miles de millones de dólares, podemos decir que Copec SA presenta su mayor capital en activos a largo plazo. En cuanto a los pasivos no corrientes, representan un total de 11.063.814 millones de millones de dólares, estos incluyen los bonos y las deudas a largo plazo. Los pasivos corrientes  de corto plazo suman 5.190.044 miles de millones de dólares. Podemos observar un leve aumento en los activos y pasivos comparando al año 2022 con el 2023.
 
 ![](photos/Captura%20de%20pantalla%202023-08-22%20112340.png){fig-align="center"}
 
 #### Caracterización de emisiones históricas (Aplicación cap. 20)
 
-Describir el proceso de emision de acciones paso a paso del activo seleccionado, caracterizando el tipo de colocacion que utilizaron en contraste con el procedimiento basico realizado en el capitulo respectivo.
+Las acciones de Copec SA se emiten como acciones ordinarias, este es un proceso en el cual se recauda capital mediante la venta de una parte o acción de la propiedad de la empresa, estas acciones tienes diversos beneficios. En cuanto a la sección del prospecto de emisión colocación de acciones, en la pagina de CMF no existe la información.
+
+Fuente: https://www.cmfchile.cl/
 
 ![](photos/Captura%20de%20pantalla%202023-08-22%20111527.png){fig-align="center"}
 
 #### Relación con activos derivados
 
-Describe un activo derivado relacionado, mostrando datos de su evolucion. Tambien mencionar porque es importante este derivado para la activo en cuestion.
+Describe un activo derivado relacionado y muestra datos de su evolución. Aplica procedimiento de valoración de un derivado por inclusión en estructura de retornos.
 
-Aplicar procedimiento de valoración de un derivado por inclusión en estructura de retornos (a profundizar en tutorial de la unidad de Derivados).
+Es una destacada empresa chilena del sector forestal perteneciente al conglomerado de empresas COPEC, se dedica al cultivo de árboles, la producción de pulpa de celulosa, papel y productos de madera, juega un papel fundamental en la industria forestal y de papel en Chile y en otros mercados globales, contribuyendo tanto al suministro de productos madereros como al desarrollo sostenible de los recursos naturales en la región.
+
+Fuente: <https://www.cmfchile.cl/>
 
 ### Reporte grupal
 
-Definicion de un balance de portafolio sobre los 3 activos del grupo, donde se especifique los pesos de cada activo de tal forma que maximize el retorno de la cartera.
+50% banco
+
+35% energía
+
+15% inmobiliaria
+
+Escogimos esta distribución ya que actualmente, con las altas tasas de interés, producto de la inflación, los bancos han generado un mayor retorno, lo cual incrementa el ingreso que han ganado y por ende tienen más dinero para realizar inversiones, lo que puede provocar un aumento en su precio de acción. Es debido a esto que le otorgamos un 50% de peso al banco, ya que es la entidad que más retornos nos va a producir. Para poder diversificar el portafolio, le colocamos un 35% al sector de energía, ya que es un sector \"neutro\", al cual no le ha ido bien ni mal, sin embargo es un sector de commoditie, por lo cual es usado por toda la población y por ende, su aumento o disminución en el precio no es muy notable. Finalmente, otorgamos un 15% al sector inmobiliario, ya que actualmente es un sector que ha sido muy repercutido por la inflación y las altas tasas de interés, lo que produjo que su precio de acción disminuyera bastante. Creemos que esta tendencia seguirá, por lo que le otorgamos un menor peso en el portafolio.
